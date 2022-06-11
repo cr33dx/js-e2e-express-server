@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: gpu-server
 
 steps:
 - task: NodeTool@0
